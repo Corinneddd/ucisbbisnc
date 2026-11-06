@@ -1,0 +1,16 @@
+{
+  "before_pruning": {
+    "features": 47,
+    "matrix_rank": 46,
+    "infinite_VIF": 3,
+    "VIF_above_10": 10,
+    "max_finite_VIF": 48.915541912963114
+  },
+  "after_selection": {
+    "features": 46,
+    "matrix_rank": 46,
+    "infinite_VIF": 0,
+    "VIF_above_10": 7,
+    "max_finite_VIF": 48.915541912978114
+  }
+}

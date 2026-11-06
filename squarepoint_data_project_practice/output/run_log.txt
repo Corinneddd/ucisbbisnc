@@ -1,0 +1,36 @@
+Raw shape: (2889, 7)
+Column types:
+ timestamp                    datetime64[ns]
+temperature_c                       float64
+demand_mw                           float64
+price_usd_mwh                       float64
+temperature_c_squared               float64
+irrelevant_noise                    float64
+next_hour_settlement_hint           float64
+Missing ratios:
+ timestamp                    0.000
+temperature_c                0.026
+demand_mw                    0.016
+price_usd_mwh                0.012
+temperature_c_squared        0.000
+irrelevant_noise             0.000
+next_hour_settlement_hint    0.000
+Duplicate timestamps: 9
+Inconsistent temperature-squared entries: 29
+Train/val/test: 1605 534 536
+Ranges: 2025-01-08 00:00:00 2025-03-16 17:00:00  |  2025-03-16 19:00:00 2025-04-08 07:00:00  |  2025-04-08 09:00:00 2025-04-30 22:00:00
+Train price skew: -0.359
+Train price excess kurtosis: 16.737
+
+Validation comparison:
+         model  val_MAE  val_RMSE
+        ridge 3.826645  5.843688
+boosted_trees 4.025575  5.961277
+  persistence 4.241261  6.955205
+
+Chosen model: ridge
+Final held-out test: {'MAE': 4.2050629543280325, 'RMSE': np.float64(7.030813377744129)}
+Test persistence benchmark: {'MAE': 4.818927021458171, 'RMSE': np.float64(8.759964467986018)}
+Test residual mean: 0.743
+Test residual lag-1 autocorrelation: -0.068
+Wrote output/eda_train.png, stl_train.png, test_results.png and validation_comparison.csv

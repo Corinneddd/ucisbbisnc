@@ -1,0 +1,11 @@
+{
+  "benchmark": "previous week",
+  "mean_MAE_reduction_MWh": 348.81389619369327,
+  "block_bootstrap_95pct_interval_MWh": [
+    228.7878543782418,
+    459.5172455884985
+  ],
+  "block_days": 7,
+  "replications": 2000,
+  "interpretation": "Conditional retrospective uncertainty; does not cover regime shifts or model fitting uncertainty."
+}

@@ -1,0 +1,11 @@
+{
+  "winner": "Boost_load_only_31",
+  "selection": "minimum observation-weighted 2020–2021 rolling-origin CV MAE",
+  "spec": {
+    "name": "Boost_load_only_31",
+    "kind": "boost",
+    "leaves": 31,
+    "subset": "load",
+    "residual": false
+  }
+}

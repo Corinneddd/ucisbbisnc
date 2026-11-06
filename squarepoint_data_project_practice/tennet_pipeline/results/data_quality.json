@@ -1,0 +1,44 @@
+{
+  "rows": 70128,
+  "numeric_columns": 15,
+  "timestamp_parse_failures": 0,
+  "berlin_parse_failures": 0,
+  "duplicate_utc": 0,
+  "original_monotonic": true,
+  "timezone_disagreements": 0,
+  "original_delta_counts": {
+    "0 days 01:00:00": 70127
+  },
+  "infinite_values": 0,
+  "missing_timestamp_rows": 0,
+  "start_utc": "2014-12-31 23:00:00+00:00",
+  "end_utc": "2022-12-31 22:00:00+00:00",
+  "missing_values": 0,
+  "missing_by_column": {
+    "lignite": 0,
+    "hard_coal": 0,
+    "natural_gas": 0,
+    "other_conventional_energy_sources": 0,
+    "nuclear": 0,
+    "onshore_wind": 0,
+    "offshore_wind": 0,
+    "photovoltaics": 0,
+    "hydropower": 0,
+    "pumped_storage_generation": 0,
+    "biomass": 0,
+    "other_renewables": 0,
+    "total_load": 0,
+    "residual_load": 0,
+    "pumped_storage_consumption": 0
+  },
+  "duplicate_local_wall_times": 8,
+  "local_wall_delta_counts": {
+    "0 days 01:00:00": 70111,
+    "0 days 02:00:00": 8,
+    "0 days 00:00:00": 8
+  },
+  "load_identity_max_abs_error_MWh": 337.0,
+  "load_identity_median_abs_error_MWh": 0.0,
+  "load_identity_exact_fraction": 0.9990303445128907,
+  "load_identity_within_1MWh_fraction": 0.9991016427104723
+}

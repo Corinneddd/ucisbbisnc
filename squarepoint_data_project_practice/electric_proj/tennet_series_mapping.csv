@@ -1,0 +1,16 @@
+col_id,deutscher_name,english_name,unit
+1223,Braunkohle,Lignite,MWh
+4069,Steinkohle,Hard coal,MWh
+4071,Erdgas,Natural gas,MWh
+1227,Sonstige konventionelle Energieträger,Other conventional energy sources,MWh
+1224,Kernenergie,Nuclear,MWh
+4067,Wind Onshore,Onshore wind,MWh
+1225,Wind Offshore,Offshore wind,MWh
+4068,Photovoltaik,Photovoltaics,MWh
+1226,Wasserkraft,Hydropower,MWh
+4070,Pumpspeicher (Erzeugung),Pumped storage generation,MWh
+4066,Biomasse,Biomass,MWh
+1228,Sonstige Erneuerbare,Other renewables,MWh
+410,Gesamtlast,Total load,MWh
+4359,Residuallast,Residual load,MWh
+4387,Pumpspeicher (Verbrauch),Pumped storage consumption,MWh

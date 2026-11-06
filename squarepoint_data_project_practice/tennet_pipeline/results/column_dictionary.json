@@ -1,0 +1,175 @@
+{
+  "id_to_english": {
+    "1223": "Lignite",
+    "4069": "Hard coal",
+    "4071": "Natural gas",
+    "1227": "Other conventional energy sources",
+    "1224": "Nuclear",
+    "4067": "Onshore wind",
+    "1225": "Offshore wind",
+    "4068": "Photovoltaics",
+    "1226": "Hydropower",
+    "4070": "Pumped storage generation",
+    "4066": "Biomass",
+    "1228": "Other renewables",
+    "410": "Total load",
+    "4359": "Residual load",
+    "4387": "Pumped storage consumption"
+  },
+  "original_to_model": {
+    "1223_TenneT": "lignite",
+    "4069_TenneT": "hard_coal",
+    "4071_TenneT": "natural_gas",
+    "1227_TenneT": "other_conventional_energy_sources",
+    "1224_TenneT": "nuclear",
+    "4067_TenneT": "onshore_wind",
+    "1225_TenneT": "offshore_wind",
+    "4068_TenneT": "photovoltaics",
+    "1226_TenneT": "hydropower",
+    "4070_TenneT": "pumped_storage_generation",
+    "4066_TenneT": "biomass",
+    "1228_TenneT": "other_renewables",
+    "410_TenneT": "total_load",
+    "4359_TenneT": "residual_load",
+    "4387_TenneT": "pumped_storage_consumption"
+  },
+  "model_to_original": {
+    "lignite": "1223_TenneT",
+    "hard_coal": "4069_TenneT",
+    "natural_gas": "4071_TenneT",
+    "other_conventional_energy_sources": "1227_TenneT",
+    "nuclear": "1224_TenneT",
+    "onshore_wind": "4067_TenneT",
+    "offshore_wind": "1225_TenneT",
+    "photovoltaics": "4068_TenneT",
+    "hydropower": "1226_TenneT",
+    "pumped_storage_generation": "4070_TenneT",
+    "biomass": "4066_TenneT",
+    "other_renewables": "1228_TenneT",
+    "total_load": "410_TenneT",
+    "residual_load": "4359_TenneT",
+    "pumped_storage_consumption": "4387_TenneT"
+  },
+  "metadata": [
+    {
+      "original_column": "1223_TenneT",
+      "col_id": "1223",
+      "model_column": "lignite",
+      "english_name": "Lignite",
+      "deutscher_name": "Braunkohle",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4069_TenneT",
+      "col_id": "4069",
+      "model_column": "hard_coal",
+      "english_name": "Hard coal",
+      "deutscher_name": "Steinkohle",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4071_TenneT",
+      "col_id": "4071",
+      "model_column": "natural_gas",
+      "english_name": "Natural gas",
+      "deutscher_name": "Erdgas",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "1227_TenneT",
+      "col_id": "1227",
+      "model_column": "other_conventional_energy_sources",
+      "english_name": "Other conventional energy sources",
+      "deutscher_name": "Sonstige konventionelle Energieträger",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "1224_TenneT",
+      "col_id": "1224",
+      "model_column": "nuclear",
+      "english_name": "Nuclear",
+      "deutscher_name": "Kernenergie",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4067_TenneT",
+      "col_id": "4067",
+      "model_column": "onshore_wind",
+      "english_name": "Onshore wind",
+      "deutscher_name": "Wind Onshore",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "1225_TenneT",
+      "col_id": "1225",
+      "model_column": "offshore_wind",
+      "english_name": "Offshore wind",
+      "deutscher_name": "Wind Offshore",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4068_TenneT",
+      "col_id": "4068",
+      "model_column": "photovoltaics",
+      "english_name": "Photovoltaics",
+      "deutscher_name": "Photovoltaik",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "1226_TenneT",
+      "col_id": "1226",
+      "model_column": "hydropower",
+      "english_name": "Hydropower",
+      "deutscher_name": "Wasserkraft",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4070_TenneT",
+      "col_id": "4070",
+      "model_column": "pumped_storage_generation",
+      "english_name": "Pumped storage generation",
+      "deutscher_name": "Pumpspeicher (Erzeugung)",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4066_TenneT",
+      "col_id": "4066",
+      "model_column": "biomass",
+      "english_name": "Biomass",
+      "deutscher_name": "Biomasse",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "1228_TenneT",
+      "col_id": "1228",
+      "model_column": "other_renewables",
+      "english_name": "Other renewables",
+      "deutscher_name": "Sonstige Erneuerbare",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "410_TenneT",
+      "col_id": "410",
+      "model_column": "total_load",
+      "english_name": "Total load",
+      "deutscher_name": "Gesamtlast",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4359_TenneT",
+      "col_id": "4359",
+      "model_column": "residual_load",
+      "english_name": "Residual load",
+      "deutscher_name": "Residuallast",
+      "unit": "MWh"
+    },
+    {
+      "original_column": "4387_TenneT",
+      "col_id": "4387",
+      "model_column": "pumped_storage_consumption",
+      "english_name": "Pumped storage consumption",
+      "deutscher_name": "Pumpspeicher (Verbrauch)",
+      "unit": "MWh"
+    }
+  ]
+}

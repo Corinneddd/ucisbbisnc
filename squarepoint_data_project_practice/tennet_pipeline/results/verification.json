@@ -1,0 +1,14 @@
+{
+  "future_mutation_invariance": true,
+  "history_only_inference_equivalence": true,
+  "all_forecast_origins_have_24_outputs": true,
+  "target_alignment": true,
+  "no_duplicate_target_timestamps": true,
+  "reloaded_model_prediction_equivalence": true,
+  "independent_metric_recalculation": true,
+  "all_39_cv_scores_reconciled": true,
+  "raw_numeric_values_preserved": true,
+  "datetime_types_preserved_in_parquet": true,
+  "notebook_9_cells_executed_without_error": true,
+  "report_8_images_embedded": true
+}

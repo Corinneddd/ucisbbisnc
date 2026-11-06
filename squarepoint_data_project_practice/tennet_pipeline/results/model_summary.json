@@ -1,0 +1,35 @@
+{
+  "winner": "Boost_load_only_31",
+  "spec": {
+    "name": "Boost_load_only_31",
+    "kind": "boost",
+    "leaves": 31,
+    "subset": "load",
+    "residual": false
+  },
+  "cv_MAE": 419.5555535988503,
+  "test_metrics": {
+    "model": "Boost_load_only_31",
+    "selected_before_test": true,
+    "n": 8736,
+    "MAE": 412.44835197480495,
+    "RMSE": 612.2174405717766,
+    "WAPE_pct": 2.472743509905701,
+    "R2": 0.955528340458744,
+    "MASE_weekly": 0.5403425954372852,
+    "bias": 39.54118489729438
+  },
+  "interval_coverage90": 0.8878205128205128,
+  "interval_mean_width": 1628.786220580258,
+  "residual_acf": {
+    "1": 0.9132624622662749,
+    "24": 0.15076421749414293,
+    "168": -0.08520573075141989
+  },
+  "test_start": "2022-01-01 00:00:00+00:00",
+  "test_end": "2022-12-30 23:00:00+00:00",
+  "test_days": 364,
+  "feature_count": 86,
+  "training_rows": 60696,
+  "final_test_rows": 8736
+}

@@ -1,0 +1,16 @@
+original_column,col_id,model_column,english_name,deutscher_name,unit
+1223_TenneT,1223,lignite,Lignite,Braunkohle,MWh
+4069_TenneT,4069,hard_coal,Hard coal,Steinkohle,MWh
+4071_TenneT,4071,natural_gas,Natural gas,Erdgas,MWh
+1227_TenneT,1227,other_conventional_energy_sources,Other conventional energy sources,Sonstige konventionelle Energieträger,MWh
+1224_TenneT,1224,nuclear,Nuclear,Kernenergie,MWh
+4067_TenneT,4067,onshore_wind,Onshore wind,Wind Onshore,MWh
+1225_TenneT,1225,offshore_wind,Offshore wind,Wind Offshore,MWh
+4068_TenneT,4068,photovoltaics,Photovoltaics,Photovoltaik,MWh
+1226_TenneT,1226,hydropower,Hydropower,Wasserkraft,MWh
+4070_TenneT,4070,pumped_storage_generation,Pumped storage generation,Pumpspeicher (Erzeugung),MWh
+4066_TenneT,4066,biomass,Biomass,Biomasse,MWh
+1228_TenneT,1228,other_renewables,Other renewables,Sonstige Erneuerbare,MWh
+410_TenneT,410,total_load,Total load,Gesamtlast,MWh
+4359_TenneT,4359,residual_load,Residual load,Residuallast,MWh
+4387_TenneT,4387,pumped_storage_consumption,Pumped storage consumption,Pumpspeicher (Verbrauch),MWh

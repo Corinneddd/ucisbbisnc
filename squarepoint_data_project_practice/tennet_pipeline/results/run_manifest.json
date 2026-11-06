@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "pyarrow": "26.0.1",
+    "joblib": "1.6.0"
+  },
+  "source_sha256": {
+    "/Users/corinne_777/Desktop/electric_proj/tennet_hourly_2015-01-01_2022-12-31.csv": "ff6eaad688d7cef3a4805b3ccfefd475231995f97a54cae422f572cb3c6c91d6",
+    "/Users/corinne_777/Desktop/electric_proj/tennet_series_mapping.csv": "af080402269ead67294f2c6f81401ac9145ff4bb1ffe02912858565759b786ca"
+  },
+  "calendar_timezone": "Europe/Berlin",
+  "forecast_timezone": "UTC",
+  "target": "total_load",
+  "validation_folds": [
+    "2020",
+    "2021_H1",
+    "2021_H2"
+  ],
+  "test_year": 2022,
+  "assumption": "Previous hourly values are available at the forecast origin; revise lags if source publication is delayed.",
+  "pipeline_sha256": "15e6647d09d91a07af150c75d9a91b64e1e7e0371cebceda94e6d2a0a9f35c5f",
+  "candidate_count": 13
+}
